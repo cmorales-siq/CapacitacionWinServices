@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.RegistroEventos1 = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.RegistroEventos1)).BeginInit();
             // 
             // MiServicioWS
             // 
             this.ServiceName = "NombreServicioWS";
+            ((System.ComponentModel.ISupportInitialize)(this.RegistroEventos1)).EndInit();
 
         }
 
         #endregion
+
+        private System.Diagnostics.EventLog RegistroEventos1;
     }
 }
