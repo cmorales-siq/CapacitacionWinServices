@@ -8,3 +8,4 @@ C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices
 C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.csproj.CoreCompileInputs.cache
 C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.exe
 C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.pdb
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.ProjectInstaller.resources
