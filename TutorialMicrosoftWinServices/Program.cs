@@ -17,7 +17,7 @@ namespace TutorialMicrosoftWinServices
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new MiServicioWS()
             };
             ServiceBase.Run(ServicesToRun);
         }

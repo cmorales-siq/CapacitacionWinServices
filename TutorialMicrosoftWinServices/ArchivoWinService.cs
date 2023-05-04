@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace TutorialMicrosoftWinServices
 {
-    public partial class Service1 : ServiceBase
+    public partial class MiServicioWS : ServiceBase
     {
-        public Service1()
+        public MiServicioWS()
         {
             InitializeComponent();
         }

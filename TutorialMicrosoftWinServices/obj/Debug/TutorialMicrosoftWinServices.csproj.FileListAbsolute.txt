@@ -1,0 +1,10 @@
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\bin\Debug\TutorialMicrosoftWinServices.exe.config
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\bin\Debug\TutorialMicrosoftWinServices.exe
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\bin\Debug\TutorialMicrosoftWinServices.pdb
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.csproj.AssemblyReference.cache
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.csproj.SuggestedBindingRedirects.cache
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.MiServicioWS.resources
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.csproj.GenerateResource.cache
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.csproj.CoreCompileInputs.cache
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.exe
+C:\Users\cmorales\Documents\CapacitacionWinServices\TutorialMicrosoftWinServices\obj\Debug\TutorialMicrosoftWinServices.pdb
