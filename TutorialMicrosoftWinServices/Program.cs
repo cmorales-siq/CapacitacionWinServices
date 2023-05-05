@@ -12,12 +12,12 @@ namespace TutorialMicrosoftWinServices
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        static void Main()
+        static void Main(string[] args)
         {
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new MiServicioWS()
+                new MiServicioWS(args) // args: parámetro de entrada
             };
             ServiceBase.Run(ServicesToRun);
         }

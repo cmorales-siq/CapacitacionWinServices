@@ -38,18 +38,34 @@ namespace TutorialMicrosoftWinServices
 {
     public partial class MiServicioWS : ServiceBase
     {
-        public MiServicioWS()
+        public MiServicioWS(string[] args) // args: parámetros de entrada
         {
             InitializeComponent();
+
+            // Parámetros predeterminados
+            string eventSourceName = "MiFuenteDefault";
+            string logName = "MiNuevoRegistroDefault";
+
+            // Asiganción de parámetros de entrada (si existen)
+            if (args.Length > 0)
+            {
+                eventSourceName = args[0];
+            }
+            if (args.Length > 1)
+            {
+                logName = args[1];
+            }
+
             // Crear Registro de Eventos (EventLog)
             RegistroEventos1 = new System.Diagnostics.EventLog();
+
             // Crear Fuente si aún no existe
-            if (!System.Diagnostics.EventLog.SourceExists("MiFuente"))
+            if (!System.Diagnostics.EventLog.SourceExists(eventSourceName))
             {
-                System.Diagnostics.EventLog.CreateEventSource("MiFuente", "MiNuevoRegistro");
+                System.Diagnostics.EventLog.CreateEventSource(eventSourceName, logName);
             }
-            RegistroEventos1.Source = "MiFuente";
-            RegistroEventos1.Log = "MiNuevoRegsitro";
+            RegistroEventos1.Source = eventSourceName;
+            RegistroEventos1.Log = logName;
         }
         // Identificador de eventos
         private int ID_evento = 1;
